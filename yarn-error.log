@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\sulv\scoop\apps\yarn\current\Yarn\bin\yarn.js add node-fetch
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\softapp\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\softapp\svn\bin;C:\Program Files\Calibre2\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\sulv\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\softapp\MySQL Utilities 1.3.4\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\nodejs\;C:\Users\sulv\scoop\apps\yarn\current\global\node_modules\.bin;C:\Users\sulv\scoop\apps\yarn\current\Yarn\bin;C:\Users\sulv\scoop\shims;D:\softapp\Ruby26-x64\bin;C:\Users\sulv\AppData\Local\Microsoft\WindowsApps;D:\softapp\Microsoft VS Code\bin;C:\Users\sulv\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\softapp\IntelliJ IDEA 2019.3.1\bin;C:\Users\sulv\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\sulv\scoop\apps\yarn\current\cache\v6\npm-inherits-2.0.1-b17d08d326b4423e568eff719f91b0b1cbdf69f1-integrity\node_modules\inherits\inherits.js' -> 'D:\web\next-demo\node_modules\assert\node_modules\inherits\inherits.js'
+
+npm manifest: 
+  {
+    "name": "next-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "node server.js",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "@zeit/next-css": "^1.0.1",
+      "antd": "^3.13.6",
+      "babel-plugin-import": "^1.11.0",
+      "koa": "^2.7.0",
+      "koa-router": "^7.4.0",
+      "next": "^8.0.3",
+      "react": "16.8.3",
+      "react-dom": "16.8.3",
+      "react-redux": "^6.0.1",
+      "redux": "^4.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
