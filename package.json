@@ -22,6 +22,7 @@
     "redux": "^4.0.1"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "webpack-bundle-analyzer": "^4.4.1"
   }
 }
