@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 import PageLoading from '../components/common/PageLoading';
 import Router from 'next/router';
 
+import dynamic from 'next/dynamic';
+
 class MyApp extends App {
 
   state = {

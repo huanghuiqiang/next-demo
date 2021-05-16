@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "node server.js"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "prd": "cross-env NODE_ENV=production pm2 start server.js"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
@@ -19,5 +20,8 @@
     "react-dom": "16.8.3",
     "react-redux": "^6.0.1",
     "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.4.1"
   }
 }

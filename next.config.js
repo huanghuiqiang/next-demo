@@ -1,4 +1,5 @@
 const withCss = require('@zeit/next-css')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 // 配置说明
 const configs = {
