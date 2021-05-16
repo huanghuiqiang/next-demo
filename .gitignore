@@ -3,3 +3,4 @@ config.js
 .next
 dest
 .vscode
+build
