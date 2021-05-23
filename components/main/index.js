@@ -26,8 +26,8 @@ export default (children) => {
         .page-container {
           min-height: 1000px;
           max-width: 880px;
-          border: 1px solid red;
           margin: 0 auto;
+          font-size: 16px;
         }
         .filter-list-p {
           display: inline-block;

@@ -16,12 +16,12 @@ export default () => (
       background-color: #fff;
       border-bottom: solid 1px #eeeeee;
       z-index: 10;
+      background-color: #BFBFBF;
     }
     .wan-home-nav {
       max-width: 1200px;
       height: 100%;
       margin: 0 auto;
-      border:  1px solid red;
     }
     `
     }</style>

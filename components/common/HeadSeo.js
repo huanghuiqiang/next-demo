@@ -6,7 +6,7 @@ const HeadSeo = () => (
     <meta name="keywords" content="Winyh | Next.js | React.js | Node.js | ..." />
     <meta name="description" content="Next 实践" />
     <meta name="referrer" content="no-referrer" />
-    <title>王师傅-师傅列表页面-demo</title>
+    <title>万师傅列表页面-demo</title>
   </Head>
 )
 
